@@ -1,0 +1,362 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: #2e3440;
+  color: #d8dee9;
+}
+meta.titlebar {
+  color: #d8dee9;
+  background: linear-gradient(#3b4358, #3b4252);
+  border-color: #6d8eb5;
+}
+meta.titlebar.inactive {
+  background-color: #4c566a;
+}
+
+meta.button {
+  background: linear-gradient(#3b4358, #3b4252);
+  border-style: solid;
+  border-image: linear-gradient(45deg, #6d8eb5, #88c0d0) 1;
+  color: #d8dee9;
+}
+meta.button.highlighted {
+  background-color: #4c566a;
+  color: #d8dee9;
+}
+meta.button.selected {
+  background-color: #2d3241;
+  color: #d8dee9;
+}
+meta.button.highlighted.selected {
+  background-color: #4c566a;
+  color: #d8dee9;
+}
+meta.button.disabled {
+  background: linear-gradient(#2d3241, #3b4252);
+  border-style: solid;
+  border-image: linear-gradient(45deg, #3b4358, #2e3440) 1;
+  color: #81a1c1;
+}
+meta.textfield {
+  background-color: #4c566a;
+  border-color: #b48ead;
+}
+meta.accent {
+  color: #3b4358;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: #2e3440;
+  color: #d8dee9;
+}
+
+meta.document.button {
+  background: linear-gradient(#3b4358, #3b4252);
+  border-style: solid;
+  border-image: linear-gradient(45deg, #6d8eb5, #88c0d0) 1;
+  color: #d8dee9;
+}
+meta.document.button.disabled {
+  background: linear-gradient(#2d3241, #3b4252);
+  border-style: solid;
+  border-image: linear-gradient(45deg, #3b4358, #2e3440) 1;
+  color: #81a1c1;
+}
+meta.document.button.highlighted {
+  background-color: #4c566a;
+  color: #d8dee9;
+}
+meta.document.textfield {
+  background-color: #4c566a;
+  border-color: #b48ead;
+}
+
+/* Text */
+meta.text {
+  background-color: #2e3440;
+  color: #d8dee9;
+}
+meta.text.invisible {
+  color: #4c566a;
+}
+meta.text.selected {
+  color: #333a4c;
+}
+/* Cursor */
+meta.cursor {
+  color: #cfd6e4;
+}
+/* Indentation Guides */
+meta.indentguide {
+  color: #4c566a;
+}
+/* Gutter */
+meta.gutter {
+}
+meta.gutter.selected {
+  color: #333a4c;
+}
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+  color: #81a1c1;
+  text-decoration-line: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+comment {
+  color: #4c566a;
+  font-style: normal;
+  font-weight: normal;
+}
+processing {
+  color: #4b6c9e;
+  font-weight: normal;
+}
+declaration {
+  color: #4b6c9e;
+}
+bracket {
+  color: #3b4358;
+}
+operator {
+  color: #81a1c1;
+}
+invalid {
+  background-color: #bf616a;
+  color: #d8dee9;
+  font-weight: normal;
+}
+link {
+  color: #cfd6e4;
+  text-decoration: underline;
+}
+
+/* Values */
+value.boolean {
+  color: #a5789e;
+}
+value.null {
+  color: #a5789e;
+}
+value.number {
+  color: #a5789e;
+}
+value.entity {
+  color: #d08770;
+}
+value.symbol {
+  color: #92b477;
+}
+
+/* Identifiers */
+identifier.type {
+  color: #6d8eb5;
+  text-decoration: none;
+}
+identifier.constant {
+  color: #d08770;
+}
+identifier.global,
+identifier.variable {
+  color: #d8dee9;
+}
+identifier.decorator {
+  color: #92b477;
+}
+identifier.property,
+identifier.function,
+identifier.method {
+  color: #88c0d0;
+  text-decoration: none;
+}
+identifier.key {
+  color: #8fbcbb;
+}
+identifier.argument {
+  color: #a3be8c;
+}
+
+/* Strings */
+string {
+  color: #a3be8c;
+}
+string.key {
+  color: #a3be8c;
+}
+string-template {
+  color: #a3be8c;
+}
+string-template.value {
+  color: #a3be8c;
+}
+regex {
+  color: #ebcb8b;
+}
+regex.escaped {
+  color: #d08770;
+}
+cdata {
+  color: #4c566a;
+  font-weight: bold;
+}
+
+/* Markup */
+markup.heading {
+  color: #4b6c9e;
+}
+markup.line {
+  color: #d8dee9;
+}
+markup.bold {
+  color: #81a1c1;
+  font-weight: bold;
+}
+markup.italic {
+  color: #a3be8c;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: #81a1c1;
+  text-decoration-line: line-through;
+}
+markup.list.item {
+  color: #8fbcbb;
+}
+markup.code {
+  background-color: #d08770;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: #4b6c9e;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: #7cafad;
+}
+
+/* Tags */
+tag {
+  color: #81a1c1;
+}
+tag.framework {
+  color: #4b6c9e;
+}
+tag.attribute.name {
+  color: #8fbcbb;
+}
+tag.attribute.value {
+  color: #a3be8c;
+}
+tag.attribute.value.link {
+  text-decoration: underline;
+}
+
+/* Styles */
+style.at {
+  color: #d08770;
+  font-style: normal;
+}
+style.selector.element {
+  font-weight: bold;
+}
+style.selector.identifier.id {
+  color: #81a1c1;
+}
+style.selector.identifier.class {
+  color: #8fbcbb;
+}
+style.selector.pseudoclass {
+  color: #a3be8c;
+}
+style.selector.pseudoelement {
+  font-weight: normal;
+}
+style.attribute.name {
+  color: #6d8eb5;
+}
+style.value.number {
+  color: #a5789e;
+}
+style.value.color.hex {
+  color: #a5789e;
+}
+style.value.keyword {
+  color: #6d8eb5;
+}
+style.value.color.named {
+  color: #a5789e;
+}
+
+/* Terminal */
+terminal.black {
+  color: #2d3241;
+}
+terminal.red {
+  color: #b14a56;
+}
+terminal.green {
+  color: #92b477;
+}
+terminal.yellow {
+  color: #e6c274;
+}
+terminal.blue {
+  color: #6d8eb5;
+}
+terminal.magenta {
+  color: #6d8eb5;
+}
+terminal.cyan {
+  color: #75b3c7;
+}
+terminal.white {
+  color: #dfe3ed;
+}
+terminal.bright-black {
+  color: #3b4358;
+}
+terminal.bright-red {
+  color: #b14a56;
+}
+terminal.bright-green {
+  color: #92b477;
+}
+terminal.bright-yellow {
+  color: #e6c274;
+}
+terminal.bright-blue {
+  color: #6d8eb5;
+}
+terminal.bright-magenta {
+  color: #6d8eb5;
+}
+terminal.bright-cyan {
+  color: #75b3c7;
+}
+terminal.bright-white {
+  color: #e7ebf1;
+}
