@@ -1,3 +1,11 @@
+## Version 0.1.2
+
+Adding mandatory `extension.png` image (should have been reference)
+
+## Version 0.1.1
+
+Migrating to MIT license
+
 ## Version 0.1.0
 
 Renumbering versions, I hope this will not break _everything_...
