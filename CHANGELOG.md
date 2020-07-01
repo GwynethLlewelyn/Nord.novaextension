@@ -1,6 +1,7 @@
-## Version 0.1.2
+## Version v0.1.2-alpha
 
-Adding mandatory `extension.png` image (should have been reference)
+- Adding mandatory `extension.png` image (should have been reference)
+- _Another_ version renumbering...
 
 ## Version 0.1.1
 
