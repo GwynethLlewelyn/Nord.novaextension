@@ -2,8 +2,6 @@
 
 Submitted to official Nova extension library! But still gives a 500 error, so you have no choice but to install it manually.
 
-Bug: somehow, this theme stopped being activated (?).
-
 ## Version v0.1.3-alpha
 
 Changing back to the `Nord.novaextension` to see if this works and can be published on the 'official' library.
