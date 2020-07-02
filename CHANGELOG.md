@@ -1,3 +1,7 @@
+## Version v0.1.3-alpha
+
+Changing back to the `Nord.novaextension` to see if this works and can be published on the 'official' library.
+
 ## Version v0.1.2-alpha
 
 - Adding mandatory `extension.png` image (should have been referenced somewhere in the instructions)
