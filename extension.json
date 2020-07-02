@@ -1,9 +1,9 @@
 {
-  "identifier": "articicestudio.Nord",
+  "identifier": "arcticicestudio.Nord",
   "name": "Nord theme for Coda",
   "vendor": "Arctic Ice Studio",
   "description": "An implementation of the Nord colour scheme for Nova by Gwyneth Llewelyn",
-  "version": "0.1.3",
+  "version": "v0.1.4-alpha",
   "categories": ["themes"],
   "bugs": "https://github.com/GwynethLlewelyn/Nord.novaextension/issues"
 }

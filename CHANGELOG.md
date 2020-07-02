@@ -1,3 +1,7 @@
+## Version v0.1.4-alpha
+
+Submitted to official Nova extension library!
+
 ## Version v0.1.3-alpha
 
 Changing back to the `Nord.novaextension` to see if this works and can be published on the 'official' library.
