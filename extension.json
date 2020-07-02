@@ -5,5 +5,5 @@
   "description": "An implementation of the Nord colour scheme for Nova by Gwyneth Llewelyn",
   "version": "0.1.3",
   "categories": ["themes"],
-  "bug": "https://github.com/GwynethLlewelyn/Nord.novaextension/issues"
+  "bugs": "https://github.com/GwynethLlewelyn/Nord.novaextension/issues"
 }
