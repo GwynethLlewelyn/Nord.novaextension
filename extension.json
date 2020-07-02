@@ -3,6 +3,6 @@
   "name": "Nord",
   "vendor": "Artic Ice Studio",
   "description": "An implementation of the Nord colour scheme for Nova by Gwyneth Llewelyn",
-  "version": "1.0",
+  "version": "0.1.2",
   "categories": ["themes"]
 }
