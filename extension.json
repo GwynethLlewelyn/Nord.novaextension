@@ -4,8 +4,8 @@
   "vendor": "Arctic Ice Studio",
   "description": "An implementation of Arctic Ice Studio's Nord colour scheme for Nova by Gwyneth Llewelyn",
   "version": "0.1.4",
-  "categories": ["themes"],
   "bugs": "https://github.com/GwynethLlewelyn/Nord.novaextension/issues",
   "repository": "https://github.com/GwynethLlewelyn/Nord.novaextension",
-  "license": "MIT"
-}
+  "license": "MIT",
+  "categories": ["themes"]
+ }
