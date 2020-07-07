@@ -15,3 +15,13 @@ Clone this project (or download it from the releases page), it'll magically turn
 [Nova](https://panic.com/nova) is the upcoming new editor from [Panic Inc.](https://panic.com/), currently in private beta development.
 
 Please take into account that I hardly know what I'm doing. Hope it works for you. This is being released for the sole purpose of testing how designing themes for Nova work; I might be tweaking it frequently, as I start figuring out how the colour assignments actually work; thus, _caveat utilitor_.
+
+## License
+
+[MIT License](./LICENSE)
+
+## GPG Fingerprint
+
+In case you need it:
+
+> CE8A 6006 B611 850F 1275 72BA D93E AA3D C4B3 E1CB
