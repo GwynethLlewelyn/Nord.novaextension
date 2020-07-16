@@ -1,3 +1,7 @@
+## Version v0.1.5-alpha
+
+Very minor tweaks on the `extension.json` file.
+
 ## Version v0.1.4-alpha
 
 Submitted to official Nova extension library! But still gives a 500 error, so you have no choice but to install it manually.
