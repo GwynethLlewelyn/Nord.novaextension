@@ -1,6 +1,6 @@
 ## Version v0.1.5-alpha
 
-Very minor tweaks on the `extension.json` file.
+Very minor tweaks on the `extension.json` file and a few updates to the README.
 
 ## Version v0.1.4-alpha
 
