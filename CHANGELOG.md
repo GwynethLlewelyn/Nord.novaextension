@@ -1,6 +1,6 @@
-## Version v0.1.7a-alpha
+## Version v0.1.8
 
-Fixed a tiny Mardown error on the [README.md](README.md) file.
+Fixed a tiny Markdown error on the README file. Entering Beta stage.
 
 ## Version v0.1.7-alpha
 
