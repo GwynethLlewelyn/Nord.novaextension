@@ -1,3 +1,7 @@
+## Version v0.1.7a-alpha
+
+Fixed a tiny Mardown error on the [README.md](README.md) file.
+
 ## Version v0.1.7-alpha
 
 After removing the extra images, I just got an 'invalid vendor' error when submitting; this was easily fixed: somehow, all the vendors I had registered disappeared! Fixed. Enjoy Nord for Nova! :-)
