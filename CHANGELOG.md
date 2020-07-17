@@ -1,3 +1,7 @@
+## Version v0.2.0
+
+GitHub does not like versions that have more than single digits, it sorts them wrongly. Bummer! Maybe the Extension Library doesn't like them, either? Nobody else seems to be using more than a single digit for the versioning. Anyway, bumped up to 0.2.0 without making any significant changes.
+
 ## Version v0.1.11
 
 Removed the extra CSS file that I used as a reference for the Nord colours; apparently, Nova will grab _anything_ that is under `Themes/` and _try_ to load it as a theme... which is weird. That reference sheet does not make any difference (and it can be grabbed from Arctic Ice Studio's GitHub repository anyway).
