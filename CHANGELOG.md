@@ -1,3 +1,7 @@
+## Version v0.1.10
+
+Tiny change on `Nord.css`: moved the `meta` tag to the top, _before_ the comments I had added.
+
 ## Version v0.1.9
 
 - _Yet another_ version renumbering!
