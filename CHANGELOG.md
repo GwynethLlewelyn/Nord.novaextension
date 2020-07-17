@@ -1,3 +1,7 @@
+## Version v0.1.6-alpha
+
+Removed all extra images, just to see if that's what was causing the issues with publishing to the extension library... and added a @2x image for the extension, too.
+
 ## Version v0.1.5-alpha
 
 Very minor tweaks on the `extension.json` file and a few updates to the README.
