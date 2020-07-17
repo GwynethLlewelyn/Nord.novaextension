@@ -1,3 +1,9 @@
+## Version v0.1.9
+
+- _Yet another_ version renumbering!
+- Fixed a tiny Markdown error on the README file
+- Entering Beta stage
+
 ## Version v0.1.8
 
 Fixed a tiny Markdown error on the README file. Entering Beta stage.
