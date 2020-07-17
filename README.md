@@ -1,4 +1,4 @@
-![](Images/nord-for-nova.png)
+![Nord for Nova logo](extension.png)
 
 # Nord theme for Nova
 
