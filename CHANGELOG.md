@@ -1,3 +1,7 @@
+## Version v0.1.7-alpha
+
+After removing the extra images, I just got an 'invalid vendor' error when submitting; this was easily fixed: somehow, all the vendors I had registered disappeared! Fixed. Enjoy Nord for Nova! :-)
+
 ## Version v0.1.6-alpha
 
 Removed all extra images, just to see if that's what was causing the issues with publishing to the extension library... and added a @2x image for the extension, too.

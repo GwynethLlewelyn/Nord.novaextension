@@ -8,9 +8,9 @@ Based on the fantastic work made by the [Arctic Ice Studio team for Coda 2](http
 
 Of course, you need to have [Nova](https://panic.com/nova) installed (FYI, it only works under macOS).
 
-Clone this project (or download it from the releases page), it'll magically turn into a 'component' thingy, and you can then double-click it to add this theme to Nova!
+If you're the proud owner of Nova, you ought to be able to go to **Extensions > Extensions Library > Themes (tab) ** and pick the theme from there.
 
-**To-do**: Figure out why this isn't exported to the Nova Extension Library, so that it can comfortably be installed by any Nova user. Current reported issue: https://dev.panic.com/panic/nova-issues/-/issues/1282
+If not, just clone this project (or download it from the releases page), it'll magically turn into a 'component' thingy, and you can then double-click it to add this theme to Nova!
 
 ## Disclaimer
 
@@ -28,7 +28,7 @@ For the Nord theme colours: Sven Greb/Arctic Ice Studio [MIT License](https://gi
 
 Nova is a trademark of Panic Inc.
 
-## GPG Fingerprint
+## My GPG Fingerprint
 
 In case you need it:
 
