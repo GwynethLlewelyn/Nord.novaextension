@@ -1,3 +1,7 @@
+## Version v0.1.11
+
+Removed the extra CSS file that I used as a reference for the Nord colours; apparently, Nova will grab _anything_ that is under `Themes/` and _try_ to load it as a theme... which is weird. That reference sheet does not make any difference (and it can be grabbed from Arctic Ice Studio's GitHub repository anyway).
+
 ## Version v0.1.10
 
 Tiny change on `Nord.css`: moved the `meta` tag to the top, _before_ the comments I had added.
