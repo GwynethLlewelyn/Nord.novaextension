@@ -1,7 +1,7 @@
 {
   "identifier": "gwynethllewelyn.Nord",
   "name": "Nord Theme for Nova",
-  "vendor": "Gwyneth Llewelyn",
+  "organization": "Gwyneth Llewelyn",
   "description": "An implementation of Arctic Ice Studio's Nord colour scheme for Nova",
   "version": "0.2.1",
   "bugs": "https://github.com/GwynethLlewelyn/Nord.novaextension/issues",

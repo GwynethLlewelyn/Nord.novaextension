@@ -1,3 +1,11 @@
+## Version v0.2.1
+
+- Slight changes on the [README](README.md) to reflect the official launch of Nova
+- Fixed the logo/lettering to be consistent with the 'final' logo/lettering
+- Changed CSS to incorporate Nord colours as `var--` for consistency
+- Changed `code` block (especially in Markdown) to a less-annoying colour/background (thanks [@skurfer](https://github.com/skurfer)!) — issue [#1](https://github.com/GwynethLlewelyn/Nord.novaextension/issues/1)
+- Changed comment colour as per [Nord recommendations/poll](https://github.com/arcticicestudio/nord/issues/94)
+
 ## Version v0.2.0
 
 GitHub does not like versions that have more than single digits, it sorts them wrongly. Bummer! Maybe the Extension Library doesn't like them, either? Nobody else seems to be using more than a single digit for the versioning. Anyway, bumped up to 0.2.0 without making any significant changes.
