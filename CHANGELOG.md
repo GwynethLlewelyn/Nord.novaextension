@@ -1,8 +1,11 @@
+## Version v0.3.1
+
+Fixed a few 'bugs' on the explanations... the style didn't change.
+
 ## Version v0.3.0
 
 - Slight changes on the [README](README.md) to reflect the official launch of Nova
 - Fixed the logo/lettering to be consistent with the released Nova logo/lettering
-- Changed CSS to incorporate Nord colours as `var--` for consistency
 - Changed `code` block (especially in Markdown) to a less-annoying colour/background (thanks [@skurfer](https://github.com/skurfer)!) — issue [#1](https://github.com/GwynethLlewelyn/Nord.novaextension/issues/1)
 - Changed comment colour as per [Nord recommendations/poll](https://github.com/arcticicestudio/nord/issues/94)
 - Changed a few colours based on a careful re-reading of the old Coda 2 stylesheet, but there are probably a few more things worth changing...

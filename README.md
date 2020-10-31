@@ -6,13 +6,13 @@ Based on the fantastic work made by the [Arctic Ice Studio team for Coda 2](http
 
 Of course, you need to have [Nova](https://panic.com/nova) installed (FYI, it only works under macOS).
 
-If you're a proud owner of Nova, you ought to be able to go to **Extensions > Extensions Library > Themes (tab)** and pick the theme from there — search for `Nord`.
+If you're a proud owner of Nova, you ought to be able to go to **Extensions > Extension Library > Themes (tab)** and pick the theme from there — search for `Nord`.
 
 If that doesn't work, just clone this project (or download it from the releases page), it'll magically turn into a 'component' thingy, and you can then double-click it to add this theme to Nova!
 
 ## Disclaimer
 
-[Nova](https://panic.com/nova) is the new editor from [Panic Inc.](https://panic.com/)-
+[Nova](https://panic.com/nova) is the new editor from [Panic Inc.](https://panic.com/)
 
 I'm neither an employee, nor a collaborator, nor a stakeholder in either Panic Inc. and/or Arctic Ice Studio. I just love both their work as a faithful fan!
 
