@@ -1,3 +1,7 @@
+## Version v0.4.0
+
+Adds experimental support for the additional styling tags used by the `advanced PHP` extension. Thanks to [Dennis Osaj](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/) for the encouragement to support these as well.
+
 ## Version v0.3.1
 
 Fixed a few 'bugs' on the explanations... the style didn't change.

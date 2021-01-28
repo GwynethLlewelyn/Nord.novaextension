@@ -18,6 +18,12 @@ I'm neither an employee, nor a collaborator, nor a stakeholder in either Panic I
 
 Please take into account that I hardly know what I'm doing. Hope it works for you. This is being released for the sole purpose of testing how designing themes for Nova work; no infringements are intended; also, I might be tweaking this theme frequently, as I start figuring out how the colour assignments actually work; thus, _caveat utilitor_.
 
+## Special thanks
+
+Thanks to [Dennis Osaj](https://github.com/dennisosaj), designer of the wonderful [advanced PHP extension](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/) as well as the [Varia theme](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.VariaTheme/), who pointed out that I should add a few more styling classes to deal with the specificities of `advanced PHP` — as well as XML, HTML and JavaScript, which are better supported by the Varia Theme.
+
+This version of the `Nord theme for Nova` is adding experimental support for `advanced PHP`, but be advised that things may still be broken or not display properly... I'm still learning about all these things!
+
 ## Licenses and acknowledgements
 
 For this package: [MIT License](LICENSE.md)

@@ -28,6 +28,27 @@ It consists of a total of sixteen, carefully selected, dimmed pastel colors for 
 eye-comfortable, but yet colorful ambiance.
 */
 
+/* Reference colours from the official Nord palette (v0.2.0) 
+:root {
+  --nord0:  #2e3440;
+  --nord1:  #3b4252;
+  --nord2:  #434c5e;
+  --nord3:  #4c566a;
+  --nord4:  #d8dee9;
+  --nord5:  #e5e9f0;
+  --nord6:  #eceff4;
+  --nord7:  #8fbcbb;
+  --nord8:  #88c0d0;
+  --nord9:  #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+}
+*/
+
 /*
  * Window styles
  */
@@ -147,7 +168,7 @@ comment {
   font-weight: normal;
 }
 processing {
-  color: #4b6c9e;
+  color: #88c0d0; /* nord8 */
   font-weight: normal;
 }
 declaration {
@@ -190,6 +211,7 @@ value.symbol {
 identifier.type {
   color: #5e81ac; /* nord10 */
   text-decoration: none;
+  font-weight: normal;
 }
 identifier.constant {
   color: #d08770; /* nord12 */
@@ -203,6 +225,7 @@ identifier.decorator {
 }
 identifier.property,
 identifier.function,
+identifier.core.function,
 identifier.method {
   color: #88c0d0; /* nord8 */
   text-decoration: none;
@@ -384,4 +407,219 @@ terminal.bright-cyan {
 }
 terminal.bright-white {
   color: #e5e9f0; /* nord5 */
+}
+
+/**
+ * special support for dennisosaj's advancedPHP plugin (gwyneth 20200127)
+ * https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/
+ **/
+ 
+/* Statics */
+advphp.static.condition { 
+  /* if, else, elseif, foreach, ... */
+  color: #81a1c1; /* nord9 */
+  }
+advphp.static.processor { 
+  /* echo, return, print, ... */
+  color: #88c0d0; /* nord8 */
+}
+advphp.static.declaration {
+  /* new, public, private, ... */
+  color: #5e81ac; /* nord10 */
+}
+advphp.static.import {
+  /* include, require, ... */
+  color: #75b3c7; /* nord8 */
+}
+advphp.static.constant {
+  /* __DIR__, __METHOD__, ... */
+  color: #d8dee9; /* nord4 */
+}
+advphp.static.wordOperator {
+  /* AND, OR, XOR, ... */
+  color: #81a1c1; /* nord9 */
+}
+
+/* CURL Keywords */
+advphp.curl.keywords {
+  /* CURLOPT_HEADER, CURLOPT_PROXY, ... */
+  color: #88c0d0; /* nord8 */
+}
+
+/* SQL Keywords */
+advphp.sql.keywords {
+  /* SELECT, FROM, WHERE, ... */
+  color: #88c0d0; /* nord8 */
+}
+
+/* Syntax */
+advphp.operator {
+  /* +, -, /, >, ... */
+  color: #81a1c1; /* nord9 */
+}
+advphp.bracket {
+  /* [], {}, (), "", ... */
+  color: #4c566a; /* nord3 */
+}
+advphp.delimiter {
+  /* , */
+  color: #81a1c1; /* nord9 */
+}
+/* Variables */
+advphp.identifier.variable.prefix {
+  /* $ */
+  color: #d8dee9; /* nord4 */
+}
+advphp.identifier.variable.name {
+  /* $variable */
+  color: #d8dee9; /* nord4 */
+}
+advphp.identifier.variable.this {
+  /* $this */
+  color: #d8dee9; /* nord4 */
+}
+/* Functions */
+advphp.identifier.function.keyword {
+  /* function */
+  color: #81a1c1; /* nord9 */
+}
+advphp.identifier.function.name {
+  /* my_function() */
+  color: #88c0d0; /* nord8 */
+}
+advphp.identifier.parameter.prefix {
+  /* my_function($parameter) {} */
+  color: #d8dee9; /* nord4 */
+}
+advphp.identifier.parameter.name {
+  /* my_function($parameter) {} */
+  color: #d8dee9; /* nord4 */
+}
+/* Objects */
+advphp.identifier.object.name {
+  /* Object:: */
+  color: #8fbcbb; /* nord7 */
+}
+/* Strings */
+advphp.string,
+advphp.value.string,
+advphp.string.doubleQuote,
+advphp.string.singleQuote, 
+advphp.string.nowdoc, 
+advphp.string.heredoc {
+  /* "string", 'string' */
+  color: #a3be8c; /* nord14 */
+}
+advphp.string.backTic {
+  /* `string` */
+  color: #a3be8c; /* nord14 */
+}
+
+/* The styles below are implemented in the Varia theme, so I've added some colouring for them as well (gwyneth 20200128) */
+
+/* HTML */
+html.tag {
+  /* < > */
+  color: #81a1c1; /* nord9 */
+}
+html.tag.name {
+  /* <meta> <br> */
+  color: #8fbcbb; /* nord7 */
+}
+html.tag.attribute.name {
+  color: #8fbcbb; /* nord7 */
+  font-style: italic;
+}
+
+/* XML */
+xml.tag {
+  color: #81a1c1; /* nord9 */
+}
+xml.tag.name {
+  color: #8fbcbb; /* nord7 */
+}
+xml.tag.attribute.name {
+  color: #8fbcbb; /* nord7 */
+  font-style: italic;
+}
+xml.tag.attribute.value {
+  color: #a3be8c; /* nord14 */
+}
+
+/*********************
+* JavaScript
+*********************/
+/* Keywords */
+javascript.keyword {
+  color: #81a1c1; /* nord9 */
+}
+javascript.keyword.class {
+  color: #81a1c1; /* nord9 */
+}
+javascript.keyword.extends {
+  color: #81a1c1; /* nord9 */
+}
+
+/* Identifiers */
+javascript.identifier.type.class.name,
+javascript.identifier.type.class.superclass {
+  color: #5e81ac; /* nord10 */
+  text-decoration: none;
+  font-weight: normal;
+}
+javascript.identifier.method,
+javascript.identifier.function {
+  color: #81a1c1; /* nord9 */
+}
+javascript.identifier.function.name {
+  color: #88c0d0; /* nord8 */
+}
+javascript.identifier.argument.name {
+  color: #d8dee9; /* nord4 */ 
+}
+javascript.identifier,
+javascript.identifier.name {
+  color: #d8dee9; /* nord4 */
+}
+javascript.identifier.property {
+  color: #a3be8c; /* nord14 */
+}
+javascript.identifier.constant {
+  color: #d08770; /* nord12 */
+}
+javascript.identifier.core.global {
+  color: #d8dee9; /* nord4 */
+}
+javascript.identifier.core.function {
+  color: #88c0d0; /* nord8 */
+}
+
+/* Values */
+javascript.value.null,
+javascript.value.boolean,
+javascript.value.number.hex,
+javascript.value.number {
+  color: #b48ead; /* nord15 */
+}
+
+/* Strings */
+javascript.string.backtick-quoted,
+javascript.string.double-quoted,
+javascript.string.single-quoted {
+  color: #a3be8c; /* nord14 */
+}
+javascript.string.regex {
+  color: #ebcb8b; /* nord13 */
+}
+
+/* Operators */
+javascript.operator,
+javascript.comma,
+javascript.semicolon,
+javascript.separator {
+  color: #81a1c1; /* nord9 */
+}
+
+javascript.bracket {
+  color: #4c566a; /* nord3 */
 }
