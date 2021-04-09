@@ -1,4 +1,6 @@
-# Nord theme for Nova
+![Nord Theme for Nova logo](https://github.com/GwynethLlewelyn/Nord.novaextension/blob/master/extension.png)
+
+# Nord Theme for Nova
 
 Based on the fantastic work made by the [Arctic Ice Studio team for Coda 2](https://github.com/arcticicestudio/nord-coda/), which is released under a MIT license.
 
@@ -22,7 +24,7 @@ Please take into account that I hardly know what I'm doing. Hope it works for yo
 
 Thanks to [Dennis Osaj](https://github.com/dennisosaj), designer of the wonderful [advanced PHP extension](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/) as well as the [Varia theme](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.VariaTheme/), who pointed out that I should add a few more styling classes to deal with the specificities of `advanced PHP` — as well as XML, HTML and JavaScript, which are better supported by the Varia Theme.
 
-This version of the `Nord theme for Nova` is adding experimental support for `advanced PHP`, but be advised that things may still be broken or not display properly... I'm still learning about all these things!
+This version of the `Nord Theme for Nova` is adding experimental support for `advanced PHP`, but be advised that things may still be broken or not display properly... I'm still learning about all these things!
 
 ## Licenses and acknowledgements
 
