@@ -1,8 +1,8 @@
-![Nord Theme for Nova logo](https://github.com/GwynethLlewelyn/Nord.novaextension/blob/master/extension.png)
+![Nord Theme for Nova logo](https://github.com/GwynethLlewelyn/Nord.novaextension/blob/master/extension.png?raw=true)
 
 # Nord Theme for Nova
 
-Based on the fantastic work made by the [Arctic Ice Studio team for Coda 2](https://github.com/arcticicestudio/nord-coda/), which is released under a MIT license.
+Based on the fantastic work made by the [Arctic Ice Studio Team for Coda 2](https://github.com/arcticicestudio/nord-coda/), which is released under a MIT license.
 
 ## Instructions
 

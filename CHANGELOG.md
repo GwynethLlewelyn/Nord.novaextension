@@ -1,3 +1,7 @@
+## Version v0.4.1
+
+Minimalistic change, basically just to get the logo on the [README.md](README.md) and tweak some Git options. No style changes.
+
 ## Version v0.4.0
 
 Adds experimental support for the additional styling tags used by the `advanced PHP` extension. Thanks to [Dennis Osaj](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/) for the encouragement to support these as well.
