@@ -12,6 +12,12 @@ If you're a proud owner of Nova, you ought to be able to go to **Extensions > Ex
 
 If that doesn't work, just clone this project (or download it from the releases page), it'll magically turn into a 'component' thingy, and you can then double-click it to add this theme to Nova!
 
+## Swatch
+
+If you wish to add the Nord theme palette for the Nova 5+ built-in Color Picker, you can install it from inside the package for this extension, under [`Swatches\Nord.json`](Swatches\Nord.json). Until I figure out how this works automatically, you will need to upload it manually: from the Color Picker, click on the gear icon, and select `Swatches/Import...`
+
+**Note:** the Color Picker also seems to be able to directly open Adobe Swatch Exchange (ASE) files, so you probably can use [the official `nord.ase` file](https://www.nordtheme.com/docs/swatches) instead).
+
 ## Disclaimer
 
 [Nova](https://panic.com/nova) is the new editor from [Panic Inc.](https://panic.com/)

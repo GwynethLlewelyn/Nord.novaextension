@@ -1,0 +1,84 @@
+{
+	"swatches": [
+		{
+			"color": "#2e3440ff",
+			"name": "nord0",
+			"space": "srgb"
+		},
+		{
+			"color": "#3b4252ff",
+			"name": "nord1",
+			"space": "srgb"
+		},
+		{
+			"color": "#434c5eff",
+			"name": "nord2",
+			"space": "srgb"
+		},
+		{
+			"color": "#4c566aff",
+			"name": "nord3",
+			"space": "srgb"
+		},
+		{
+			"color": "#d8dee9ff",
+			"name": "nord4",
+			"space": "srgb"
+		},
+		{
+			"color": "#e5e9f0ff",
+			"name": "nord5",
+			"space": "srgb"
+		},
+		{
+			"color": "#eceff4ff",
+			"name": "nord6",
+			"space": "srgb"
+		},
+		{
+			"color": "#8fbcbbff",
+			"name": "nord7",
+			"space": "srgb"
+		},
+		{
+			"color": "#88c0d0ff",
+			"name": "nord8",
+			"space": "srgb"
+		},
+		{
+			"color": "#81a1c1ff",
+			"name": "nord9",
+			"space": "srgb"
+		},
+		{
+			"color": "#5e81acff",
+			"name": "nord10",
+			"space": "srgb"
+		},
+		{
+			"color": "#bf616aff",
+			"name": "nord11",
+			"space": "srgb"
+		},
+		{
+			"color": "#d08770ff",
+			"name": "nord12",
+			"space": "srgb"
+		},
+		{
+			"color": "#ebcb8bff",
+			"name": "nord13",
+			"space": "srgb"
+		},
+		{
+			"color": "#a3be8cff",
+			"name": "nord14",
+			"space": "srgb"
+		},
+		{
+			"color": "#b48eadff",
+			"name": "nord15",
+			"space": "srgb"
+		}
+	]
+}
