@@ -20,7 +20,7 @@ If you wish to add the Nord theme palette for the Nova 5+ built-in Color Picker,
 
 ## Disclaimer
 
-[Nova](https://panic.com/nova) is the new editor from [Panic Inc.](https://panic.com/)
+[Nova](https://panic.com/nova) is a code editor developed by [Panic Inc.](https://panic.com/)
 
 I'm neither an employee, nor a collaborator, nor a stakeholder in either Panic Inc. and/or Arctic Ice Studio. I just love both their work as a faithful fan!
 
@@ -42,6 +42,6 @@ Nova is a trademark of Panic Inc.
 
 ## My GPG Fingerprint
 
-In case you need it:
+In case you need it to send me encrypted email:
 
 > CE8A 6006 B611 850F 1275 72BA D93E AA3D C4B3 E1CB

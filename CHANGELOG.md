@@ -1,3 +1,7 @@
+## Version v0.4.3
+
+Adding support for the new tags supported by Nova 7.X
+
 ## Version v0.4.2
 
 Added a swatch file for the Nord palette. Useful for using inside the Nova Color Picker. I don't know how to automatically load it, so you will have to install it manually (see [README.md](README.md)).

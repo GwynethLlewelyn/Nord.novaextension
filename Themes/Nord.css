@@ -22,13 +22,13 @@ meta {
  */
 /*
 An arctic, north-bluish color palette.
-Created for the clean- and minimal flat design pattern to achieve a optimal focus 
+Created for the clean- and minimal flat design pattern to achieve a optimal focus
 and readability for code syntax highlighting and UI.
-It consists of a total of sixteen, carefully selected, dimmed pastel colors for a 
+It consists of a total of sixteen, carefully selected, dimmed pastel colors for a
 eye-comfortable, but yet colorful ambiance.
 */
 
-/* Reference colours from the official Nord palette (v0.2.0) 
+/* Reference colours from the official Nord palette (v0.2.0)
 :root {
   --nord0:  #2e3440;
   --nord1:  #3b4252;
@@ -156,28 +156,42 @@ meta.gutter.selected {
  * Syntax styles
  */
 
-keyword {
+/* reserved words in a language */
+/* construct words, such as `function`, `class`, `interface`, `type` */
+/* condition words, such as `if`, `while`, `try`, `switch`, `case` */
+/* modifier words, such as `async`, `public`, `from`, `in`, `as` */
+/* operator words, such as and, or, not */
+/* type-referential words, such as self, this, super */
+keyword,
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator,
+keyword.self
+{
   color: #81a1c1; /* nord9 */
   text-decoration-line: none;
   text-decoration: none;
   font-weight: normal;
 }
-comment {
+
+comment { /* single and multiline comments */
   color: #616e88; /* nord3 10% brighter as per https://github.com/arcticicestudio/nord/issues/94 */
   font-style: normal;
   font-weight: normal;
 }
-processing {
+processing { /* processing directives, such as C preprocessor commands */
   color: #88c0d0; /* nord8 */
   font-weight: normal;
 }
-declaration {
+declaration { /* declarative elements, such as XML and HTML doctypes */
   color: #5e81ac; /* nord10 */
 }
-bracket {
+bracket { /*  */
   color: #4c566a; /* nord3 */
 }
-operator {
+operator,
+keyword.operator { /* operator words, such as `and`, `or`, `not` */
   color: #81a1c1; /* nord9 */
 }
 invalid {
@@ -413,13 +427,13 @@ terminal.bright-white {
  * special support for dennisosaj's advancedPHP plugin (gwyneth 20200127)
  * https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/
  **/
- 
+
 /* Statics */
-advphp.static.condition { 
+advphp.static.condition {
   /* if, else, elseif, foreach, ... */
   color: #81a1c1; /* nord9 */
   }
-advphp.static.processor { 
+advphp.static.processor {
   /* echo, return, print, ... */
   color: #88c0d0; /* nord8 */
 }
@@ -504,8 +518,8 @@ advphp.identifier.object.name {
 advphp.string,
 advphp.value.string,
 advphp.string.doubleQuote,
-advphp.string.singleQuote, 
-advphp.string.nowdoc, 
+advphp.string.singleQuote,
+advphp.string.nowdoc,
 advphp.string.heredoc {
   /* "string", 'string' */
   color: #a3be8c; /* nord14 */
@@ -575,7 +589,7 @@ javascript.identifier.function.name {
   color: #88c0d0; /* nord8 */
 }
 javascript.identifier.argument.name {
-  color: #d8dee9; /* nord4 */ 
+  color: #d8dee9; /* nord4 */
 }
 javascript.identifier,
 javascript.identifier.name {
