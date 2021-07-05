@@ -666,3 +666,9 @@ javascript.bracket {
 /*  color: #4c566a; /* nord3 */
   color: #eceff4; /* nord6 */
 }
+
+/* Go */
+/* Delimiter */
+go.delimiter {
+  color: #81a1c1; /* nord9 */
+}
