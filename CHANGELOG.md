@@ -1,6 +1,7 @@
 ## Version v0.4.3
 
-Adding support for the new tags supported by Nova 7.X
+- Adding support for the new tags supported by Nova 7.X
+- Shuffled a bit of CSS around, to try to get it more readable and displaying things better
 
 ## Version v0.4.2
 

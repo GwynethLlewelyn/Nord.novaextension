@@ -663,5 +663,6 @@ javascript.separator {
 }
 
 javascript.bracket {
-  color: #4c566a; /* nord3 */
+/*  color: #4c566a; /* nord3 */
+  color: #eceff4; /* nord6 */
 }
