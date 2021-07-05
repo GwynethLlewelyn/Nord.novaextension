@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: dark;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: false;
 }
 
 /*
@@ -54,7 +54,7 @@ eye-comfortable, but yet colorful ambiance.
  */
 meta.window {
   background-color: #2e3440; /* nord0 */
-  color: #d8dee9; /* nord4 */
+  color: #eceff4; /* nord6 */
 }
 meta.titlebar {
   color: #d8dee9; /* nord4 */
@@ -73,15 +73,15 @@ meta.button {
 }
 meta.button.highlighted {
   background-color: #4c566a; /* nord3 */
-  color: #d8dee9; /* nord4 */
+  color: #e5e9f0; /* nord5 */
 }
 meta.button.selected {
   background-color: #2e3440; /* nord0 */
-  color: #d8dee9; /* nord4 */
+  color: #e5e9f0; /* nord5 */
 }
 meta.button.highlighted.selected {
   background-color: #4c566a; /* nord3 */
-  color: #d8dee9; /* nord4 */
+  color: #e5e9f0; /* nord5 */
 }
 meta.button.disabled {
   background: linear-gradient(#2e3440, #3b4252);
@@ -102,7 +102,7 @@ meta.accent {
  */
 meta.document {
   background-color: #2e3440; /* nord0 */
-  color: #d8dee9; /* nord4 */
+  color: #eceff4; /* nord6 */
 }
 
 meta.document.button {
@@ -119,7 +119,15 @@ meta.document.button.disabled {
 }
 meta.document.button.highlighted {
   background-color: #4c566a; /* nord3 */
-  color: #d8dee9; /* nord4 */
+  color: #e5e9f0; /* nord5 */
+}
+meta.document.button.selected {
+  background-color: #2e3440; /* nord0 */
+  color: #e5e9f0; /* nord5 */
+}
+meta.document.button.highlighted.selected {
+  background-color: #4c566a; /* nord3 */
+  color: #e5e9f0; /* nord5 */
 }
 meta.document.textfield {
   background-color: #4c566a; /* nord3 */
@@ -129,13 +137,15 @@ meta.document.textfield {
 /* Text */
 meta.text {
   background-color: #2e3440; /* nord0 */
-  color: #d8dee9; /* nord4 */
+  color: #e5e9f0; /* nord6 */
 }
 meta.text.invisible {
   color: #4c566a; /* nord3 */
 }
 meta.text.selected {
-  color: #333a4c; /* #434c5e */
+/*  color: #333a4c; /* #434c5e */
+  background-color: #4c566a; /* nord3 */
+  color: #e5e9f0; /* nord5 */
 }
 /* Cursor */
 meta.cursor {
@@ -155,24 +165,25 @@ meta.gutter.selected {
 /*
  * Syntax styles
  */
-
-/* reserved words in a language */
-/* construct words, such as `function`, `class`, `interface`, `type` */
-/* condition words, such as `if`, `while`, `try`, `switch`, `case` */
-/* modifier words, such as `async`, `public`, `from`, `in`, `as` */
-/* operator words, such as and, or, not */
-/* type-referential words, such as self, this, super */
+/* keyword: reserved words in a language */
+/* keyword.construct: construct words, such as `function`, `class`, `interface`, `type` */
+/* keyword.condition: condition words, such as `if`, `while`, `try`, `switch`, `case` */
+/* keyword.modifier: modifier words, such as `async`, `public`, `from`, `in`, `as` */
+/* keyword.operator: operator words, such as and, or, not */
 keyword,
 keyword.construct,
 keyword.condition,
 keyword.modifier,
-keyword.operator,
-keyword.self
+keyword.operator
 {
   color: #81a1c1; /* nord9 */
   text-decoration-line: none;
   text-decoration: none;
   font-weight: normal;
+}
+/* keyword.self: type-referential words, such as self, this, super */
+keyword.self {
+  color: #d8dee9; /* nord4 */
 }
 
 comment { /* single and multiline comments */
@@ -187,8 +198,9 @@ processing { /* processing directives, such as C preprocessor commands */
 declaration { /* declarative elements, such as XML and HTML doctypes */
   color: #5e81ac; /* nord10 */
 }
-bracket { /*  */
-  color: #4c566a; /* nord3 */
+bracket { /* paired brackets for syntactic scope and separation */
+/*  color: #4c566a; /* nord3 */
+  color: #eceff4; /* nord6 */
 }
 operator,
 keyword.operator { /* operator words, such as `and`, `or`, `not` */
@@ -221,8 +233,20 @@ value.symbol {
   color: #a3be8c; /* nord14 */
 }
 
-/* Identifiers */
-identifier.type {
+/* Identifiers
+identifier.type.class: classes
+identifier.type.protocol: protocols
+identifier.type.enum: enumerations
+identifier.type.union: unions
+identifier.type.struct: structs
+identifier.core: applyable to any of the above, indicates a “core” (built-in) symbol
+*/
+identifier.type,
+identifier.type.class,
+identifier.type.protocol,
+identifier.type.enum,
+identifier.type.union,
+identifier.type.struct {
   color: #5e81ac; /* nord10 */
   text-decoration: none;
   font-weight: normal;
@@ -301,11 +325,15 @@ markup.code {
   color: #d08770; /* nord12 */
   background-color: #4c566a; /* nord3 */
 }
+markup.link { /* as link above */
+  text-decoration: underline;
+}
 
 /* Types */
 definition.class class.name,
 definition.type type.name,
 definition.package package.name,
+definition.protocol protocol.name,
 definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
@@ -357,20 +385,20 @@ style.selector.pseudoclass {
 style.selector.pseudoelement {
   font-weight: normal;
 }
-style.attribute.name {
+style.attribute, style.attribute.name {
   color: #5e81ac; /* nord10 */
 }
 style.value.number {
   color: #a5789e; /* #b48ead */
 }
-style.value.color.hex {
+style.value.color, style.value.color.hex {
   color: #a5789e; /* #b48ead */
-}
-style.value.keyword {
-  color: #6d8eb5; /* #5e81ac */
 }
 style.value.color.named {
   color: #b48ead; /* nord15 */
+}
+style.value.keyword {
+  color: #6d8eb5; /* #5e81ac */
 }
 
 /* Terminal */
