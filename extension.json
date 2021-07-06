@@ -4,9 +4,11 @@
   "organization": "Gwyneth Llewelyn",
   "description": "An implementation of Arctic Ice Studio's Nord colour scheme for Nova",
   "version": "0.4.3",
+  "min_runtime": "6.0",
   "bugs": "https://github.com/GwynethLlewelyn/Nord.novaextension/issues",
   "repository": "https://github.com/GwynethLlewelyn/Nord.novaextension",
   "homepage": "https://www.nordtheme.com/",
+  "funding": "https://www.paypal.com/paypalme/gwynethllewelyn",
   "keywords": ["Nord", "nordic", "pastel"],
   "license": "MIT",
   "categories": ["themes"]
