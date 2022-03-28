@@ -33,3 +33,6 @@ Temporary Items
 
 # GitHub integrations
 .github
+
+# SonarCloud integrations
+sonar-project.properties
