@@ -45,3 +45,5 @@ Nova is a trademark of Panic Inc.
 In case you need it to send me encrypted email:
 
 > CE8A 6006 B611 850F 1275 72BA D93E AA3D C4B3 E1CB
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GwynethLlewelyn_Nord.novaextension&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GwynethLlewelyn_Nord.novaextension)
