@@ -30,3 +30,6 @@ Temporary Items
 
 # Stuff from the Nova editor
 .nova
+
+# GitHub integrations
+.github
